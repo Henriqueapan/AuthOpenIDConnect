@@ -4,39 +4,6 @@
 
     class AuthOpenIDConnect extends LimeSurvey\PluginManager\AuthPluginBase {
         protected $storage = 'DbStorage';
-        // protected $settings1 = [
-        //     'info' => [
-        //         'type' => 'info',
-        //         'content' => '<h1>OpenID Connect</h1><p>Please provide the following settings.</br>If necessary settings are missing, the default authdb login will be shown.</p>'
-        //     ],
-        //     'providerURL' => [
-        //         'type' => 'string',
-        //         'label' => 'Provider URL',
-        //         'help' => 'Required',
-        //         'default' => ''
-        //     ],
-        //     'clientID' => [
-        //         'type' => 'string',
-        //         'label' => 'Client ID',
-        //         'help' => 'Required',
-        //         'default' => ''
-        //     ],
-        //     'clientSecret' => [
-        //         'type' => 'string',
-        //         'label' => 'Client Secret',
-        //         'help' => 'Required',
-        //         'default' => ''
-        //     ],
-        //     'redirectURL' => [
-        //         'type' => 'string',
-        //         'label' => 'Redirect URL',
-        //         'help' => 'The Redirect URL is automatically set on plugin activation.',
-        //         'default' => '',
-        //         'htmlOptions' => [
-        //             'readOnly' => true,          
-        //         ]
-        //     ]
-        // ];
         protected $settings = array(
             'info' => array(
                 'type' => 'string',

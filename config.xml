@@ -4,7 +4,7 @@
         <name>AuthOpenIDConnect</name>
         <type>plugin</type>
         <creationDate>2020-02-17</creationDate>
-        <lastUpdate>2020-02-17</lastUpdate>
+        <lastUpdate>2022-08-26</lastUpdate>
         <author>Jan Menzel</author>
         <authorUrl>https://github.com/janmenzel</authorUrl>
         <version>1.0.0</version>
